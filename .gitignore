@@ -1,0 +1,57 @@
+# This workspace contains several unrelated PICO projects.
+# Keep this repository scoped to Taskfall source and its design package.
+/*
+!/.gitignore
+!/AGENTS.md
+!/PICO-SPATIAL-AGENTIC-TOOLS.AGENTS.md
+!/README.md
+!/build.gradle.kts
+!/settings.gradle.kts
+!/gradle.properties
+!/gradlew
+!/gradlew.bat
+!/app/
+!/gradle/
+!/design/
+!/artifacts/
+
+/design/*
+!/design/taskfall/
+
+/artifacts/*
+!/artifacts/branding/
+/artifacts/branding/*
+!/artifacts/branding/space-note-waterfall-icon-master.png
+
+# Android / Gradle generated and machine-local files
+**/.gradle/
+**/.kotlin/
+**/build/
+**/out/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+local.properties
+.pico-env.json
+*.apk
+*.aab
+*.apks
+*.log
+
+# IDE and operating-system files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Credentials and signing material
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+google-services.json
